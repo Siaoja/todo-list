@@ -15,7 +15,7 @@ function App() {
           <Router>
               <Link to='/'>root</Link><br/>
               <Link to='/done-todo-list'>to done list</Link><br/>
-              <Route path="/" exact component={TodoListContainer} />
+              <Route path="/" component={TodoListContainer} />
               <Route path="/done-todo-list" component={DoneTodoListContainer}/>
           </Router>
           <TodoFormContainer/>
